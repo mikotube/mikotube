@@ -3,8 +3,8 @@
 .PopularPosts .item-thumbnail{float:none;margin:0 0 10px;}
 .PopularPosts .item-title{background:rgba(0,0,0,0.5);position:absolute;display:block;clear:both;z-index:50;top:0;left:0;right:0;bottom:0;padding:15px;transition:all .4s;}
 .PopularPosts .item-title:hover{background:rgba(0,0,0,.2)}
-.PopularPosts .item-title a{color:rgba(255,255,255,0);font-weight:700;font-size:120%;text-shadow:0 0 5px rgba(0,0,0,0)}
-.PopularPosts .item-title:hover a,.PopularPosts .item-title a:hover{color:rgba(255,255,255,1);text-shadow:0 0 5px rgba(0,0,0,.3)}
+.PopularPosts .item-title a{color:rgba(255,255,255,0);font-weight:700;font-size:120%;text-shadow:0 0 5px rgba(0,0,0,0);font-family:Oswald;}
+.PopularPosts .item-title:hover a,.PopularPosts .item-title a:hover{color:rgba(255,255,255,1);text-shadow:0 0 5px rgba(0,0,0,.3);font-family:Oswald;}
 .PopularPosts .widget-content ul li img{translate(0,0) scale(1.0);transition:all .8s linear}
 .PopularPosts .widget-content ul li:hover img{transform:translate(0,-20px) scale(1.05);transition:all 3.6s linear;}
 .PopularPosts img{display:block;height:auto;width:100%;padding:0;backface-visibility:hidden;}
@@ -13,8 +13,7 @@
 .PopularPosts ul{padding:0;line-height:normal;counter-reset:count;}
 .PopularPosts .widget-content ul li{position:relative;padding:10px 0;overflow:hidden;max-height:100px;transition:all .4s;}
 
-.PopularPosts .widget-content ul li:before{color:#fff;counter-increment:count;content:counter(count);position:absolute;right:15px;top:20px;
-  font:bold 30px/1 Oswald;z-index:51;transition:all .4s;
+.PopularPosts .widget-content ul li:before{color:#fff;counter-increment:count;content:counter(count);position:absolute;right:15px;top:20px;font:bold 30px/1 Oswald;z-index:51;transition:all .4s;
   background: #fe6d46;
   margin-top:-10px;
   color: #ffffff;
