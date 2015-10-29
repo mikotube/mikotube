@@ -284,4 +284,8 @@ $(document)[_0x2ed1[124]](function() {
             window[_0x2ed1[122]][_0x2ed1[121]] = _0x2ed1[123]
         }
     }, 3000);
+<<<<<<< HEAD
 });
+=======
+});
+>>>>>>> origin/master
